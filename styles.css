@@ -99,6 +99,19 @@ button,
   box-shadow: 0 16px 40px rgba(22, 77, 144, 0.16);
 }
 
+.whatsapp-button {
+  background: #25d366;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whatsapp-button::before {
+  content: "☎";
+  margin-right: 0.6rem;
+}
+
 .hero {
   padding: 4rem 0 2rem;
 }
